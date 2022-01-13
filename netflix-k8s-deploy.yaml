@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: nagasatishdocker/netflix-app:latest
+        image: nagasatishdocker/netflix-app:1
         ports:
         - containerPort: 3000
