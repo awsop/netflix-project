@@ -3,20 +3,22 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 // 1) when seeding the database you'll have to uncomment this!
-// import { seedDatabase } from '../seed';
+ import { seedDatabase } from '../seed';
 
 const config = {
-  apiKey: "AIzaSyCvIOzitxhJCtc-K_OF0L_QkEse9owObL0",
-  authDomain: "netflix-k8s.firebaseapp.com",
-  projectId: "netflix-k8s",
-  storageBucket: "netflix-k8s.appspot.com",
-  messagingSenderId: "561539661219",
-  appId: "1:561539661219:web:6f0b991f20abbe8d782e16"
+  apiKey: "AIzaSyDwRAdFJgeK1dIMnRDmHwtLVzd3wo4TO3M",
+  authDomain: "jenkins-netflix.firebaseapp.com",
+  projectId: "jenkins-netflix",
+  storageBucket: "jenkins-netflix.appspot.com",
+  messagingSenderId: "797761463704",
+  appId: "1:797761463704:web:fc74ca758291043ad4b7ed",
+  measurementId: "G-TZ5MCFDE4W"
+
 };
 
 const firebase = Firebase.initializeApp(config);
 // 2) when seeding the database you'll have to uncomment this!
-// seedDatabase(firebase);
+ seedDatabase(firebase);
 // 3) once you have populated the database (only run once!), re-comment this so you don't get duplicate data
 
 export { firebase };
